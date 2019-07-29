@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <div class="container my-5">
+    <h2>Jobs</h2>
+    <hr />
+    <div class="row">
+      {% for job in jobs %}
+        <div class="col-12">
+            <div class="french-corners french-laundry-blue-bg mb-3 p-3">
+              <h3 class="card-title peachy-kreme-fg">{{ job.name }}</h3>
+              <p class="card-text text-white">Company: {{ job.creator.company_name }}</p>
+              <p class="card-text text-white">{{ job.description|truncatechars:100 }}</p>
+              <div class="btn-group" role="group" aria-label="Basic example">
+                <a href="{% url 'jobs:public-job-details' job.slug %}" class="btn circle-left peachy-kreme-bg text-white px-3"><i class="fas fa-info-circle"></i> Details</a>
+                <button type="button" class="btn peachy-kreme-bg text-white px-3"><i class="fas fa-clipboard-list"></i> Apply</button>
+                <button type="button" class="btn circle-right peachy-kreme-bg text-white px-3"><i class="far fa-save"></i> Save</button>
+              </div>
+            </div>
+          </div>
+      {% endfor %}
+    </div>
+  </div>
+{% endblock content %}

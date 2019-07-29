@@ -1,0 +1,115 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <title>Jobs &amp; Rec</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static 'libs/bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'libs/fontawesome/css/all.min.css' %}">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="{% static 'css/overrides.css' %}" rel="stylesheet">
+    <link href="{% static 'css/colors.css' %}" rel="stylesheet">
+    <link href="{% static 'css/main.css' %}" rel="stylesheet">
+    <link href="{% static 'css/dashboard.css' %}" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-dark fixed-top peachy-kreme-bg flex-md-nowrap p-0 shadow">
+      {% if user.is_authenticated %}
+        {% if user.is_employer %}
+          <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">{{ request.user.employer.company_name }}</a>
+        {% endif %}
+        {% if user.is_professional %}
+          <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">{{ request.user.name }}</a>
+        {% endif %}
+      {% endif %}
+      
+      <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
+      <ul class="navbar-nav px-3">
+        <li class="nav-item text-nowrap">
+          <a class="nav-link signout" href="{% url 'logout' %}">Sign out</a>
+        </li>
+      </ul>
+    </nav>
+
+  <div class="container-fluid">
+    <div class="row">
+      <nav class="col-md-2 d-none d-md-block french-laundry-blue-bg sidebar">
+        <div class="sidebar-sticky">
+          {% if user.is_authenticated %}
+            {% if user.is_employer %}
+              {% include 'partials/employer-sidebar.html' %}
+            {% endif %}
+            {% if user.is_professional %}
+              {% include 'partials/pro-sidebar.html' %}
+            {% endif %}
+          {% endif %}
+
+          <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 whitish-fg">
+            <span>Saved reports</span>
+            <a class="d-flex align-items-center whitish-fg" href="#">
+              <span data-feather="plus-circle"></span>
+            </a>
+          </h6>
+          <ul class="nav flex-column mb-2">
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span data-feather="file-text"></span>
+                Current month
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span data-feather="file-text"></span>
+                Last quarter
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span data-feather="file-text"></span>
+                Social engagement
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span data-feather="file-text"></span>
+                Year-end sale
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+        {% block content %}
+        {% endblock content %}
+      </main>
+    </div>
+  </div>
+  <script src="{% static 'libs/jquery/jquery.min.js' %}"></script>
+  <script src="{% static 'libs/popper/popper.min.js' %}"></script>
+  <script src="{% static 'libs/bootstrap/js/bootstrap.min.js' %}"></script>
+  <script src="{% static 'js/ajaxCRUD.js' %}"></script>
+  <script src="{% static 'libs/chartjs/Chart.min.js' %}"></script>
+  <script src="{% static 'js/dashboard.js' %}"></script>
+  {% block javascript %}
+  {% endblock javascript %}
+</body>
+</html>

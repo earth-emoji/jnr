@@ -1,0 +1,119 @@
+[
+    {
+        "model": "competencies.competency",
+        "pk": 1,
+        "fields": {
+          "slug": "9e248670-a5ce-11e9-a2a3-2a2ae2dbcce4",
+          "skill": "Show sincere interest in others and their concerns.",
+          "type": 1
+        }
+    },
+    {
+        "model": "competencies.competency",
+        "pk": 2,
+        "fields": {
+          "slug": "9e2487a6-a5ce-11e9-a2a3-2a2ae2dbcce4",
+          "skill": "Demonstrate sensitivity to the needs and feelings of others.",
+          "type": 1
+        }
+    },
+    {
+        "model": "competencies.competency",
+        "pk": 3,
+        "fields": {
+          "slug": "9e2488c8-a5ce-11e9-a2a3-2a2ae2dbcce4",
+          "skill": "Recognize and accurately interpret the communications of others as expressed through various formats (e.g., writing, speech, American Sign Language, computers, etc.).",
+          "type": 1
+        }
+    },
+    {
+        "model": "competencies.competency",
+        "pk": 4,
+        "fields": {
+          "slug": "9e2489f4-a5ce-11e9-a2a3-2a2ae2dbcce4",
+          "skill": "Recognize when relationships with others are strained.",
+          "type": 1
+        }
+    },
+    {
+        "model": "competencies.competency",
+        "pk": 5,
+        "fields": {
+          "slug": "9e248b16-a5ce-11e9-a2a3-2a2ae2dbcce4",
+          "skill": "Show understanding of others’ behaviors and motives by demonstrating appropriate responses.",
+          "type": 1
+        }
+    },
+    {
+        "model": "competencies.competency",
+        "pk": 6,
+        "fields": {
+          "slug": "9e248e68-a5ce-11e9-a2a3-2a2ae2dbcce4",
+          "skill": "Demonstrate flexibility for change based on the ideas and actions of others.",
+          "type": 1
+        }
+    },
+    {
+        "model": "competencies.competency",
+        "pk": 7,
+        "fields": {
+          "slug": "9e248fb2-a5ce-11e9-a2a3-2a2ae2dbcce4",
+          "skill": "Maintain open lines of communication with others.",
+          "type": 1
+        }
+    },
+    {
+        "model": "competencies.competency",
+        "pk": 8,
+        "fields": {
+          "slug": "9e2490de-a5ce-11e9-a2a3-2a2ae2dbcce4",
+          "skill": "Encourage others to share problems and successes.",
+          "type": 1
+        }
+    },
+    {
+        "model": "competencies.competency",
+        "pk": 9,
+        "fields": {
+          "slug": "9e249214-a5ce-11e9-a2a3-2a2ae2dbcce4",
+          "skill": "Establish a high degree of trust and credibility with others.",
+          "type": 1
+        }
+    },
+    {
+        "model": "competencies.competency",
+        "pk": 10,
+        "fields": {
+          "slug": "9e24934a-a5ce-11e9-a2a3-2a2ae2dbcce4",
+          "skill": "Demonstrate respect for coworkers, colleagues, and customers.",
+          "type": 1
+        }
+    },
+    {
+        "model": "competencies.competency",
+        "pk": 11,
+        "fields": {
+          "slug": "9e249476-a5ce-11e9-a2a3-2a2ae2dbcce4",
+          "skill": "Interact respectfully and cooperatively with others who are of a different race, culture, or age, or have different abilities, gender, or sexual orientation.",
+          "type": 1
+        }
+    },
+    {
+        "model": "competencies.competency",
+        "pk": 12,
+        "fields": {
+          "slug": "9e2497e6-a5ce-11e9-a2a3-2a2ae2dbcce4",
+          "skill": "Demonstrate sensitivity, flexibility, and open-mindedness when dealing with different values, beliefs, perspectives, customs, or opinions.",
+          "type": 1
+        }
+    },
+    {
+        "model": "competencies.competency",
+        "pk": 13,
+        "fields": {
+          "slug": "9e249944-a5ce-11e9-a2a3-2a2ae2dbcce4",
+          "skill": "Value an environment that supports and accommodates a diversity of people and ideas.",
+          "type": 1
+        }
+    },
+]

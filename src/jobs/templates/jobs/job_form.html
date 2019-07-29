@@ -1,0 +1,38 @@
+{% extends 'dashboard.html' %}
+
+{% block content %}
+<div class="container-fluid">
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 my-5 border-bottom">
+        <h1 class="h2">Add a new job</h1>
+        <div class="btn-toolbar mb-2 mb-md-0">
+            <div class="">
+                <a href="{% url 'employers:employer-jobs' request.user.employer.slug %}" class="btn french-laundry-blue-bg whitish-fg rounded-pill">List</a>
+                <button type="button" class="btn french-laundry-blue-bg whitish-fg rounded-pill" disabled>Export</button>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <form class="mb-5" method="post" novalidate enctype="multipart/form-data">
+        {% csrf_token %}
+        <div class="form-group">
+            {{ form.name.errors }}
+            <label for="{{ form.name.id_for_label }}">Name:</label>
+            {{ form.name }}
+        </div>
+        <div class="form-group">
+            {{ form.positions_to_fill.errors }}
+            <label for="{{ form.positions_to_fill.id_for_label }}">Positions to fill:</label>
+            {{ form.positions_to_fill }}
+        </div>
+        <div class="form-group">
+            {{ form.description.errors }}
+            <label for="{{ form.description.id_for_label }}">Description:</label>
+            {{ form.description }}
+        </div>
+        <button type="submit" class="btn peachy-kreme-bg text-white rounded-pill">Save</button>
+    </form>
+</div>
+
+{% endblock content %}

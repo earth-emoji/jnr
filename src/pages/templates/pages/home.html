@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="parallax text-center parallax-mt">
+        <div class="mid">
+            <h2>Jobs &amp; Rec</h2>
+            <p class="tagline">Live &middot; Work &middot; Play</p>
+            <a class="btn btn-lg text-white french-laundry-blue-bg rounded-pill" id="login-btn" href="{% url 'login' %}" role="button">Login</a>
+            <a class="btn btn-lg text-white peachy-kreme-bg rounded-pill" id="signup-btn" href="{% url 'user_signup' %}" role="button">Signup</a>
+        </div>
+    </div>
+
+    <div class="row no-gutters">
+        <div class="col-sm">
+            <div style="height: 1rem;" class="french-laundry-blue-bg"></div>
+        </div>
+        <div class="col-sm">
+            <div style="height: 1rem;" class="comfortably-tan-bg"></div>
+        </div>
+        <div class="col-sm">
+            <div style="height: 1rem;" class="peachy-kreme-bg"></div>
+        </div>
+    </div>
+
+    <div class="row no-gutters">
+        <div class="col-sm">
+            <div class="img-block block-one vh-50">
+                <div class="txt-block text-center">
+                    <p>
+                        Cras luctus, nisl non auctor ullamcorper, risus felis maximus lorem, ut pretium velit ligula at mi. Phasellus sollicitudin interdum magna. 
+                    </p>
+                    <a class="btn btn-lg text-white peachy-kreme-bg rounded-pill mt-5" id="signup-btn" href="#" role="button">Link</a>
+                </div>
+                <div class="color-overlay"></div>
+            </div>
+        </div>
+        <div class="col-sm">
+            <div class="img-block block-two vh-50">
+                <div class="txt-block text-center">
+                    <p>
+                        Aenean tempor urna vel massa hendrerit elementum. Suspendisse pharetra odio sed purus mollis mattis. Vivamus ligula justo, egestas et imperdiet sed, sagittis euismod nunc.
+                    </p>
+                    <a class="btn btn-lg text-white peachy-kreme-bg rounded-pill mt-5" id="signup-btn" href="#" role="button">Link</a>
+                </div>
+                <div class="color-overlay"></div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

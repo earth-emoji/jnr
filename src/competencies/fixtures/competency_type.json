@@ -1,0 +1,425 @@
+[
+    {
+        "model": "competencies.competency_type",
+        "pk": 1,
+        "fields": {
+          "slug": "9e243698-a5ce-11e9-a2a3-2a2ae2dbcce4",
+          "tier": "Personal",
+          "name": "Interpersonal"
+        }
+    },
+    {
+        "model": "competencies.competency_type",
+        "pk": 2,
+        "fields": {
+          "slug": "9e24394a-a5ce-11e9-a2a3-2a2ae2dbcce4",
+          "tier": "Personal",
+          "name": "Integrity"
+        }
+    },
+    {
+        "model": "competencies.competency_type",
+        "pk": 3,
+        "fields": {
+          "slug": "9e243aa8-a5ce-11e9-a2a3-2a2ae2dbcce4",
+          "tier": "Personal",
+          "name": "Professionalism"
+        }
+    },
+    {
+        "model": "competencies.competency_type",
+        "pk": 4,
+        "fields": {
+          "slug": "9e243bf2-a5ce-11e9-a2a3-2a2ae2dbcce4",
+          "tier": "Personal",
+          "name": "Initiative"
+        }
+    },
+    {
+        "model": "competencies.competency_type",
+        "pk": 5,
+        "fields": {
+          "slug": "9e244052-a5ce-11e9-a2a3-2a2ae2dbcce4",
+          "tier": "Personal",
+          "name": "Dependability and Reliability"
+        }
+    },
+    {
+        "model": "competencies.competency_type",
+        "pk": 6,
+        "fields": {
+          "slug": "9e244d36-a5ce-11e9-a2a3-2a2ae2dbcce4",
+          "tier": "Personal",
+          "name": "Adaptability and Flexibility"
+        }
+    },
+    {
+        "model": "competencies.competency_type",
+        "pk": 7,
+        "fields": {
+          "slug": "9e244188-a5ce-11e9-a2a3-2a2ae2dbcce4",
+          "tier": "Personal",
+          "name": "Lifelong Learning"
+        }
+    },
+    {
+        "model": "competencies.competency_type",
+        "pk": 8,
+        "fields": {
+          "slug": "9e2442b4-a5ce-11e9-a2a3-2a2ae2dbcce4",
+          "tier": "Academic",
+          "name": "Reading"
+        }
+    },
+    {
+      "model": "competencies.competency_type",
+      "pk": 9,
+      "fields": {
+        "slug": "9e244412-a5ce-11e9-a2a3-2a2ae2dbcce4",
+        "tier": "Academic",
+        "name": "Writing"
+      }
+    },
+    {
+      "model": "competencies.competency_type",
+      "pk": 10,
+      "fields": {
+        "slug": "9e244552-a5ce-11e9-a2a3-2a2ae2dbcce4",
+        "tier": "Academic",
+        "name": "Mathematics"
+      }
+    },
+    {
+      "model": "competencies.competency_type",
+      "pk": 11,
+      "fields": {
+        "slug": "9e24467e-a5ce-11e9-a2a3-2a2ae2dbcce4",
+        "tier": "Academic",
+        "name": "Science and Technology"
+      }
+    },
+    {
+      "model": "competencies.competency_type",
+      "pk": 12,
+      "fields": {
+        "slug": "9e244bce-a5ce-11e9-a2a3-2a2ae2dbcce4",
+        "tier": "Academic",
+        "name": "Communication"
+      }
+    },
+    {
+      "model": "competencies.competency_type",
+      "pk": 13,
+      "fields": {
+        "slug": "9e244e6c-a5ce-11e9-a2a3-2a2ae2dbcce4",
+        "tier": "Academic",
+        "name": "Critical and Analytic Thinking"
+      }
+    },
+    {
+      "model": "competencies.competency_type",
+      "pk": 14,
+      "fields": {
+        "slug": "9e244fa2-a5ce-11e9-a2a3-2a2ae2dbcce4",
+        "tier": "Academic",
+        "name": "Basic Computer Skills"
+      }
+    },
+    {
+      "model": "competencies.competency_type",
+      "pk": 15,
+      "fields": {
+        "slug": "9e245146-a5ce-11e9-a2a3-2a2ae2dbcce4",
+        "tier": "Workplace",
+        "name": "Teamwork"
+      }
+    },
+    {
+      "model": "competencies.competency_type",
+      "pk": 16,
+      "fields": {
+        "slug": "9e245290-a5ce-11e9-a2a3-2a2ae2dbcce4",
+        "tier": "Workplace",
+        "name": "Customer Focus"
+      }
+    },
+    {
+      "model": "competencies.competency_type",
+      "pk": 17,
+      "fields": {
+        "slug": "9e2453bc-a5ce-11e9-a2a3-2a2ae2dbcce4",
+        "tier": "Workplace",
+        "name": "Planning and Organizing"
+      }
+    },
+    {
+      "model": "competencies.competency_type",
+      "pk": 18,
+      "fields": {
+        "slug": "9e24577c-a5ce-11e9-a2a3-2a2ae2dbcce4",
+        "tier": "Workplace",
+        "name": "Creative Thinking"
+      }
+    },
+    {
+      "model": "competencies.competency_type",
+      "pk": 19,
+      "fields": {
+        "slug": "9e2458da-a5ce-11e9-a2a3-2a2ae2dbcce4",
+        "tier": "Workplace",
+        "name": "Problem Solving and Decision-Making"
+      }
+    },
+    {
+      "model": "competencies.competency_type",
+      "pk": 20,
+      "fields": {
+        "slug": "9e245a24-a5ce-11e9-a2a3-2a2ae2dbcce4",
+        "tier": "Workplace",
+        "name": "Working with Tools and Technology"
+      }
+    },
+    {
+      "model": "competencies.competency_type",
+      "pk": 21,
+      "fields": {
+        "slug": "9e245b46-a5ce-11e9-a2a3-2a2ae2dbcce4",
+        "tier": "Workplace",
+        "name": "Scheduling and Coordinating"
+      }
+    },
+    {
+      "model": "competencies.competency_type",
+      "pk": 22,
+      "fields": {
+        "slug": "9e245c7c-a5ce-11e9-a2a3-2a2ae2dbcce4",
+        "tier": "Workplace",
+        "name": "Checking, Examining, and Recording"
+      }
+    },
+    {
+      "model": "competencies.competency_type",
+      "pk": 23,
+      "fields": {
+        "slug": "9e245da8-a5ce-11e9-a2a3-2a2ae2dbcce4",
+        "tier": "Workplace",
+        "name": "Business Fundamentals"
+      }
+    },
+    {
+      "model": "competencies.competency_type",
+      "pk": 24,
+      "fields": {
+        "slug": "9e2460d2-a5ce-11e9-a2a3-2a2ae2dbcce4",
+        "tier": "Sector",
+        "name": "Corporate"
+      }
+    },
+    {
+      "model": "competencies.competency_type",
+      "pk": 25,
+      "fields": {
+        "slug": "9e246230-a5ce-11e9-a2a3-2a2ae2dbcce4",
+        "tier": "Sector",
+        "name": "Events"
+      }
+    },
+    {
+      "model": "competencies.competency_type",
+      "pk": 26,
+      "fields": {
+        "slug": "9e24635c-a5ce-11e9-a2a3-2a2ae2dbcce4",
+        "tier": "Sector",
+        "name": "Finance &amp; Accounting"
+      }
+    },
+    {
+      "model": "competencies.competency_type",
+      "pk": 27,
+      "fields": {
+        "slug": "9e246488-a5ce-11e9-a2a3-2a2ae2dbcce4",
+        "tier": "Sector",
+        "name": "Food &amp; Bevarage"
+      }
+    },
+    {
+      "model": "competencies.competency_type",
+      "pk": 28,
+      "fields": {
+        "slug": "9e2465aa-a5ce-11e9-a2a3-2a2ae2dbcce4",
+        "tier": "Sector",
+        "name": "Golf"
+      }
+    },
+    {
+      "model": "competencies.competency_type",
+      "pk": 29,
+      "fields": {
+        "slug": "9e2466cc-a5ce-11e9-a2a3-2a2ae2dbcce4",
+        "tier": "Sector",
+        "name": "Guest Services"
+      }
+    },
+    {
+      "model": "competencies.competency_type",
+      "pk": 30,
+      "fields": {
+        "slug": "9e2469f6-a5ce-11e9-a2a3-2a2ae2dbcce4",
+        "tier": "Sector",
+        "name": "HR"
+      }
+    },
+    {
+      "model": "competencies.competency_type",
+      "pk": 31,
+      "fields": {
+        "slug": "9e246b54-a5ce-11e9-a2a3-2a2ae2dbcce4",
+        "tier": "Sector",
+        "name": "IT"
+      }
+    },
+    {
+      "model": "competencies.competency_type",
+      "pk": 32,
+      "fields": {
+        "slug": "9e246c80-a5ce-11e9-a2a3-2a2ae2dbcce4",
+        "tier": "Sector",
+        "name": "Legal"
+      }
+    },
+    {
+      "model": "competencies.competency_type",
+      "pk": 33,
+      "fields": {
+        "slug": "9e246db6-a5ce-11e9-a2a3-2a2ae2dbcce4",
+        "tier": "Sector",
+        "name": "Lodging"
+      }
+    },
+    {
+      "model": "competencies.competency_type",
+      "pk": 34,
+      "fields": {
+        "slug": "9e24746e-a5ce-11e9-a2a3-2a2ae2dbcce4",
+        "tier": "Sector",
+        "name": "Maintenance"
+      }
+    },
+    {
+      "model": "competencies.competency_type",
+      "pk": 35,
+      "fields": {
+        "slug": "9e246ed8-a5ce-11e9-a2a3-2a2ae2dbcce4",
+        "tier": "Sector",
+        "name": "Recreation"
+      }
+    },
+    {
+      "model": "competencies.competency_type",
+      "pk": 36,
+      "fields": {
+        "slug": "9e247004-a5ce-11e9-a2a3-2a2ae2dbcce4",
+        "tier": "Sector",
+        "name": "Retail"
+      }
+    },
+    {
+      "model": "competencies.competency_type",
+      "pk": 37,
+      "fields": {
+        "slug": "9e24732e-a5ce-11e9-a2a3-2a2ae2dbcce4",
+        "tier": "Sector",
+        "name": "Sales &amp; Marketing"
+      }
+    },
+    {
+      "model": "competencies.competency_type",
+      "pk": 38,
+      "fields": {
+        "slug": "9e24759a-a5ce-11e9-a2a3-2a2ae2dbcce4",
+        "tier": "Sector",
+        "name": "Security &amp; Safety"
+      }
+    },
+    {
+      "model": "competencies.competency_type",
+      "pk": 39,
+      "fields": {
+        "slug": "9e2476c6-a5ce-11e9-a2a3-2a2ae2dbcce4",
+        "tier": "Sector",
+        "name": "Employee Services"
+      }
+    },
+    {
+      "model": "competencies.competency_type",
+      "pk": 40,
+      "fields": {
+        "slug": "9e24787e-a5ce-11e9-a2a3-2a2ae2dbcce4",
+        "tier": "Sector",
+        "name": "Ski &amp; Ride School"
+      }
+    },
+    {
+      "model": "competencies.competency_type",
+      "pk": 41,
+      "fields": {
+        "slug": "9e2479d2-a5ce-11e9-a2a3-2a2ae2dbcce4",
+        "tier": "Sector",
+        "name": "Transportation"
+      }
+    },
+    {
+      "model": "competencies.competency_type",
+      "pk": 42,
+      "fields": {
+        "slug": "9e247cf2-a5ce-11e9-a2a3-2a2ae2dbcce4",
+        "tier": "Sector",
+        "name": "Livery &amp; Stable"
+      }
+    },
+    {
+      "model": "competencies.competency_type",
+      "pk": 43,
+      "fields": {
+        "slug": "9e247e46-a5ce-11e9-a2a3-2a2ae2dbcce4",
+        "tier": "Sector",
+        "name": "Warehouse"
+      }
+    },
+    {
+      "model": "competencies.competency_type",
+      "pk": 44,
+      "fields": {
+        "slug": "9e247f72-a5ce-11e9-a2a3-2a2ae2dbcce4",
+        "tier": "Sector",
+        "name": "Message, Spa &amp; Pool"
+      }
+    },
+    {
+      "model": "competencies.competency_type",
+      "pk": 45,
+      "fields": {
+        "slug": "9e2480a8-a5ce-11e9-a2a3-2a2ae2dbcce4",
+        "tier": "Sector",
+        "name": "Engineering"
+      }
+    },
+    {
+      "model": "competencies.competency_type",
+      "pk": 46,
+      "fields": {
+        "slug": "9e2481ca-a5ce-11e9-a2a3-2a2ae2dbcce4",
+        "tier": "Sector",
+        "name": "Mechanics"
+      }
+    },
+    {
+      "model": "competencies.competency_type",
+      "pk": 47,
+      "fields": {
+        "slug": "9e24851c-a5ce-11e9-a2a3-2a2ae2dbcce4",
+        "tier": "Sector",
+        "name": "Construction"
+      }
+    }
+]

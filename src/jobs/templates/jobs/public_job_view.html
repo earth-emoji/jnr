@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container my-5">
+    <h2>{{ job.name }}</h2>
+    <hr />
+    <div class="row">
+      <div class="col-4">
+        <p class="my-2"><strong>Posted by</strong>: {{ job.creator.company_name }}</p>
+      </div>
+      <div class="col-8">
+        <p>{{ job.description }}</p>
+        <p><strong>Positions available</strong>: {{ job.positions_to_fill }}</p>
+      </div>
+    </div>
+</div>
+{% endblock content %}
